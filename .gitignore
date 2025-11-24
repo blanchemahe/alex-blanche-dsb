@@ -1,0 +1,12 @@
+# Mac
+.DS_Store
+
+# Python env
+vscode_env/
+venv/
+.env/
+
+# Data
+*.parquet
+data/
+submissions/
