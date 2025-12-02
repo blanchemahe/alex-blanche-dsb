@@ -1,12 +1,15 @@
-# Mac
-.DS_Store
-
-# Python env
-vscode_env/
-venv/
-.env/
-
-# Data
+# Ignorer les données lourdes
 *.parquet
-data/
-submissions/
+*.pkl
+*.csv
+
+# Sauf le fichier d'exemple et tes soumissions si tu veux les garder
+!example_submission.csv
+!submission*.csv
+
+# Ignorer les fichiers système et caches python
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+.env
