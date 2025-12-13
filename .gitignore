@@ -1,0 +1,19 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Data / models / outputs
+*.parquet
+*.pkl
+*.model
+xgb_ensemble_*/
+subs_*/
+subs_refine_topk/
+subs_topk_refine_only/
+subs_topk_micro_039/
+subs_sweep_v4/
+
+# Optionnel: garde ou non tes finals
+# FINAL_*.csv
+
+# Mac
+.DS_Store
