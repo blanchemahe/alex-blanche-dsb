@@ -17,3 +17,9 @@ subs_sweep_v4/
 
 # Mac
 .DS_Store
+
+# Kaggle submissions (generated)
+FINAL_*.csv
+sub_top_*.csv
+sub_thr_*.csv
+final_submissions/
